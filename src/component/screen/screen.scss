@@ -1,0 +1,25 @@
+.screen {
+    width: 1920px;
+    height: 1080px;
+    // margin-left: 150px;
+    // margin-right: 300px;
+}
+
+.screen-show {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.grap {
+    position: absolute;
+
+    & > .glap-title {
+        text-align: center;
+    }
+}
+
+.check {
+    outline: 5px solid #ccc;
+}

@@ -1,0 +1,21 @@
+.tools {
+    position: absolute;
+    left: 0px;
+    width: 150px;
+    height: 300px;
+    overflow-y: auto;
+    z-index: 10;
+
+    & > .graphic {
+        width: 120px;
+        height: 120px;
+        margin: 5px auto;
+        border: 1px solid #ccc;
+    } 
+}
+
+
+
+.bar-simple {
+    background: url('../../img/bar-simple.png') no-repeat center center;
+}
