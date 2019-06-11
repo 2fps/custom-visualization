@@ -53,7 +53,8 @@ const config = {
     },
     plugins: [
         new HtmlWebpackPlugin({template: './index.html'})
-    ]
+    ],
+    mode: 'development'
 };
 
 module.exports = config;
